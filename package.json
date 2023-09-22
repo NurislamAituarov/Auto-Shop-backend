@@ -4,9 +4,11 @@
   "description": "",
   "main": "index.js",
   "type": "module",
+  "homepage": "https://nurislamaituarov.github.io/Auto-Shop-backend/",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
@@ -19,5 +21,8 @@
     "pg": "^8.7.3",
     "pg-hstore": "^2.3.4",
     "pg-pool": "^3.5.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
   }
 }

@@ -4,11 +4,9 @@
   "description": "",
   "main": "index.js",
   "type": "module",
-  "homepage": "https://nurislamaituarov.github.io/Auto-Shop-backend/",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon index.js",
-    "deploy": "gh-pages -d build"
+    "dev": "nodemon index.js"
   },
   "keywords": [],
   "author": "",

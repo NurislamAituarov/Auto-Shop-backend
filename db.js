@@ -3,10 +3,7 @@ const { Pool } = pkg;
 
 const poolConfig = process.env.DATABASE_URL
   ? {
-      connectionString: process.env.DATABASE_URL,
-      ssl: {
-        rejectUnauthorized: false,
-      },
+      connectionString: process.env.POSTGRES_URL + '?sslmode=require',
     }
   : {
       user: 'postgres',

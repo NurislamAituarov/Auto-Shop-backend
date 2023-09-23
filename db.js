@@ -1,7 +1,7 @@
 import pkg from 'pg';
 const { Pool } = pkg;
 
-const poolConfig = process.env.DATABASE_URL
+const poolConfig = process.env.POSTGRES_URL
   ? {
       connectionString: process.env.POSTGRES_URL + '?sslmode=require',
     }
